@@ -12,7 +12,7 @@
     export default {
         name: "TodoListItem",
         props:{
-          valueItem: { type: Object, default: {label: '', checked: false}}
+            valueItem: { type: Object }
         },
         data(){
             return {
